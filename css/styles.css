@@ -5,14 +5,53 @@ div {
 
 body {
   margin: 0;
+  text-align: center;
+  position: relative;
+  font-family: 'Merriweather', serif;
 }
 
 h1 {
-  margin: 0;
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
 }
 
 p {
   margin: 0;
+}
+
+.icon {
+  border-radius: 50%;
+  height: 150px;
+}
+
+.profile {
+  position: relative;
+  padding-top: 25px;
+}
+
+.profile-pic {
+  width: 189px;
+  height: 252px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 250px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
 }
 
 .pro {
@@ -25,18 +64,8 @@ p {
 
 .top-container {
   background-color: #B3E8E5;
-  border: solid 10px;
-  padding: 20px;
-}
-
-.middle-container {
-  border: solid 20px;
-  margin-left: 260px;
-}
-
-.bottom-container {
-  border: solid 10px;
-  margin-left: 500px;
+  position: relative;
+  padding-top: 100px;
 }
 
 .box {
